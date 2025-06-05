@@ -16,30 +16,6 @@ This project develops a semantic book recommender system leveraging the power of
 
 This project was developed using **Python 3.11**. To run the project successfully, please ensure you have the following dependencies installed:
 
-To give you a "raw file" with the README content, I need to provide just the text that would go directly into a .md file, without any surrounding conversational elements.
-
-Here is the raw content for your README.md file:
-
-Markdown
-
-# Semantic Book Recommender with LLMs
-
-This project develops a semantic book recommender system leveraging the power of Large Language Models (LLMs). It encompasses several key components:
-
-## Project Components
-
-* **Text Data Cleaning:** Preparing raw text data for effective use in language models.
-* **Semantic (Vector) Search & Vector Database:** Building a system to find semantically similar books using vector embeddings and storing them in a dedicated database.
-* **Text Classification with Zero-Shot Learning:** Performing text categorization without prior training examples for specific categories, utilizing LLMs' inherent understanding.
-* **Sentiment Analysis & Emotion Extraction:** Analyzing the emotional tone of text and extracting specific emotions using LLMs.
-* **Web Application with Gradio:** Creating an interactive user interface using Gradio for users to easily get book recommendations.
-
----
-
-## Setup and Dependencies
-
-This project was developed using **Python 3.11**. To run the project successfully, please ensure you have the following dependencies installed:
-
 kagglehub
 pandas
 matplotlib
