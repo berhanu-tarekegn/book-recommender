@@ -1,15 +1,44 @@
-Semantic Book Recommender with LLMs
+# Semantic Book Recommender with LLMs
 
-There are five components to this project:
+This project develops a semantic book recommender system leveraging the power of Large Language Models (LLMs). It encompasses several key components:
 
-Text data cleaning 
-Semantic (vector) search and how to build a vector database
-Doing text classification using zero-shot classification in LLMs
-Doing sentiment analysis using LLMs and extracting the emotions from text
-Creating a web application using Gradio for users to get book recommendations
+## Project Components
 
+* **Text Data Cleaning:** Preparing raw text data for effective use in language models.
+* **Semantic (Vector) Search & Vector Database:** Building a system to find semantically similar books using vector embeddings and storing them in a dedicated database.
+* **Text Classification with Zero-Shot Learning:** Performing text categorization without prior training examples for specific categories, utilizing LLMs' inherent understanding.
+* **Sentiment Analysis & Emotion Extraction:** Analyzing the emotional tone of text and extracting specific emotions using LLMs.
+* **Web Application with Gradio:** Creating an interactive user interface using Gradio for users to easily get book recommendations.
 
-This project was initially created in Python 3.11. In order to run the project, the following dependencies are required:
+---
+
+## Setup and Dependencies
+
+This project was developed using **Python 3.11**. To run the project successfully, please ensure you have the following dependencies installed:
+
+To give you a "raw file" with the README content, I need to provide just the text that would go directly into a .md file, without any surrounding conversational elements.
+
+Here is the raw content for your README.md file:
+
+Markdown
+
+# Semantic Book Recommender with LLMs
+
+This project develops a semantic book recommender system leveraging the power of Large Language Models (LLMs). It encompasses several key components:
+
+## Project Components
+
+* **Text Data Cleaning:** Preparing raw text data for effective use in language models.
+* **Semantic (Vector) Search & Vector Database:** Building a system to find semantically similar books using vector embeddings and storing them in a dedicated database.
+* **Text Classification with Zero-Shot Learning:** Performing text categorization without prior training examples for specific categories, utilizing LLMs' inherent understanding.
+* **Sentiment Analysis & Emotion Extraction:** Analyzing the emotional tone of text and extracting specific emotions using LLMs.
+* **Web Application with Gradio:** Creating an interactive user interface using Gradio for users to easily get book recommendations.
+
+---
+
+## Setup and Dependencies
+
+This project was developed using **Python 3.11**. To run the project successfully, please ensure you have the following dependencies installed:
 
 kagglehub
 pandas
@@ -23,12 +52,9 @@ transformers
 gradio
 notebook
 ipywidgets
-A requirements.txt file containing all the project dependencies is provided as part of this repo.
 
-In order to create your vector database, you'll need to create a .env file in your root directory containing your OpenAI API key and HuggingFace API key.
-```
-OPENAI_API_KEY=
-HUGGINGFACEHUB_API_TOKEN=
+A `requirements.txt` file, containing all necessary project dependencies, is provided in this repository for easy installation. You can install them using pip:
 
-```
-The data for this project can be downloaded from Kaggle. Instructions on how to do this are also in the repo.
+```bash
+pip install -r requirements.txt
+
